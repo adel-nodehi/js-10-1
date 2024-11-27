@@ -1,3 +1,9 @@
+console.log('script starts');
+
+import './getData.js';
+
+console.log('script ends');
+
 // import {
 //   shoppingList as list,
 //   addToShoppingList,
@@ -8,7 +14,7 @@
 
 // import show from './shop.js';
 
-import { shoppingList } from './shop.js';
+// import { shoppingList } from './shop.js';
 
 // console.log(list);
 
@@ -35,4 +41,4 @@ import { shoppingList } from './shop.js';
 // show();
 
 ///////////////////////////////
-console.log(shoppingList);
+// console.log(shoppingList);
