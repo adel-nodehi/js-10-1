@@ -1,5 +1,3 @@
-console.log('script starts');
-
 import './getData.js';
 
 console.log('script ends');
