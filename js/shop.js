@@ -1,14 +1,16 @@
-const shoppingList = ['ice-cream'];
+export const shoppingList = ['ice-cream'];
 let totalPrice = 200;
 
-const addToShoppingList = function (item) {
+export const addToShoppingList = function (item) {
   shoppingList.push(item);
   totalPrice += 50;
 };
 
-export { shoppingList, addToShoppingList };
-
-export default function () {
+const showShoppingList = function () {
   console.log(`your shopping list: ${shoppingList.join(', ')}.
-  total price is $${totalPrice}`);
-}
+    total price is $${totalPrice}`);
+};
+
+// export { shoppingList, addToShoppingList };
+
+export default showShoppingList;
