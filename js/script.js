@@ -2,6 +2,10 @@ import './getData.js';
 
 console.log('script ends');
 
+/*
+tow type of modules: commonjs and ES6 modules
+*/
+
 // import {
 //   shoppingList as list,
 //   addToShoppingList,
@@ -40,3 +44,8 @@ console.log('script ends');
 
 ///////////////////////////////
 // console.log(shoppingList);
+
+//////////////////////
+// commonjs
+// const {} = required('./getData.js');
+// export.shoppingList = shoppingList;
