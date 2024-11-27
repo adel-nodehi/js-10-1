@@ -6,14 +6,9 @@ const addToShoppingList = function (item) {
   totalPrice += 50;
 };
 
-const showShoppingList = function () {
-  console.log(`your shopping list: ${shoppingList.join(', ')}.
-total price is ${totalPrice}$`);
-};
-
-export { shoppingList, addToShoppingList, showShoppingList };
+export { shoppingList, addToShoppingList };
 
 export default function () {
   console.log(`your shopping list: ${shoppingList.join(', ')}.
-  total price is ${totalPrice}$`);
+  total price is $${totalPrice}`);
 }

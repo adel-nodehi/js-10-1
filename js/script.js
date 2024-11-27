@@ -5,9 +5,8 @@
 // } from './shop.js';
 
 // import * as shop from './shop.js';
-import showShopping from './shop.js';
 
-showShopping();
+import show from './shop.js';
 
 // console.log(list);
 
@@ -31,3 +30,4 @@ showShopping();
 
 ///////////////////////////////
 // default import and export
+show();
